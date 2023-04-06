@@ -22,6 +22,7 @@ pipeline{
 				stage('2-aubin-subjob2'){
 					steps{
 						sh 'du -h'
+						sh 'df -h'
 					}
 				}
 			}
